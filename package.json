@@ -1,0 +1,46 @@
+{
+  "name": "coding",
+  "version": "1.0.0",
+  "description": "Aderival#9233",
+  "main": "index.js",
+  "dependencies": {
+    "array-sort": "^1.0.0",
+    "bufferutil": "^4.0.1",
+    "cpu-stat": "^2.0.1",
+    "discord-akairo": "^7.5.5",
+    "discord-anti-spam": "^2.0.0",
+    "discord.js": "^11.4.2",
+    "discord.js-musicbot-addon": "^13.4.5",
+    "dotenv": "^6.2.0",
+    "dotenv-flow": "^0.2.0",
+    "fs": "^0.0.1-security",
+    "libsodium-wrappers": "^0.7.4",
+    "moment": "^2.24.0",
+    "moment-duration-format": "^2.2.2",
+    "ms": "^2.1.1",
+    "opusscript": "0.0.6",
+    "os": "^0.1.1",
+    "quick.hook": "^1.5.1",
+    "simple-youtube-api": "^5.1.1",
+    "string": "^3.3.3",
+    "string-similarity": "^3.0.0",
+    "superagent": "^4.1.0",
+    "table": "^5.2.3",
+    "uws": "^100.0.1",
+    "ytdl-core": "^0.29.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "!ping"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdeRival/AdeRival.git"
+  },
+  "author": "Aderival",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdeRival/AdeRival/issues"
+  },
+  "homepage": "https://github.com/AdeRival/AdeRival#readme"
+}
