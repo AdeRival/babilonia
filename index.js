@@ -5,6 +5,7 @@ const fs = require ('fs');
 require('dotenv-flow').config();
 bot.commands = new Discord.Collection();
 bot.aliases = new Discord.Collection();
+const token = process.env.token
 
 let userData = JSON.parse(fs.readFileSync('Storage/userData.json', 'utf8'));
 
