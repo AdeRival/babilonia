@@ -1,5 +1,4 @@
 const Discord = require('discord.js');
-const sql = require('mysql');
 
 const knexDB = require('knex')({
     client: 'mysql',
