@@ -1,16 +1,5 @@
 const Discord = require('discord.js');
 
-const knexDB = require('knex')({
-    client: 'mysql',
-    connection: {
-        host: 'localhost',
-        user: 'admin',
-        password: '1234561asd',
-        database: 'arsbot'
-    },
-    pool: {min: 0, max: 6}
-});
-
 exports.run = (bot, message, args) => {
     if (!message.guild.member(message.author).hasPermission('MANAGE_NICKNAMES')) {
         return message.reply(':lock: You need to have `MANAGE_NICKNAMES` Permission to execute `warn`').catch(e => logger.error(e));
