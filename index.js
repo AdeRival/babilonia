@@ -1,11 +1,12 @@
 const Discord = require("discord.js");
 const bot = new Discord.Client();
 const fs = require ('fs');
+const prefix = 'r!';
 require('dotenv-flow').config();
 bot.commands = new Discord.Collection();
 bot.aliases = new Discord.Collection();
 const { Util } = require('discord.js');
-const { prefix, GOOGLE_API_KEY } = require('./config.json');
+const { GOOGLE_API_KEY } = require('./config.json');
 const YouTube = require('simple-youtube-api');
 const ytdl = require('ytdl-core');
 
