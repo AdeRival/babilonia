@@ -61,4 +61,7 @@ typings/
 .next
 
 #FFMPEG
-FFMPEG
+ffmpeg.exe
+ffplay.exe
+ffprobe.exe
+
