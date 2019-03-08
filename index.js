@@ -6,7 +6,7 @@ require('dotenv-flow').config();
 bot.commands = new Discord.Collection();
 bot.aliases = new Discord.Collection();
 const { Util } = require('discord.js');
-const { GOOGLE_API_KEY } = require('./config.ja');
+const { GOOGLE_API_KEY } = require('./config.js');
 const YouTube = require('simple-youtube-api');
 const ytdl = require('ytdl-core');
 
