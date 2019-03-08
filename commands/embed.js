@@ -1,7 +1,6 @@
 const Discord = require('discord.js');
 exports.run = (bot, msg, args, lang) => {
 
-	msg.delete();
 	const input = args.slice();
 
 	if (!input || input.length === 0) return msg.reply(lang.embed_error);
@@ -12,7 +11,7 @@ exports.run = (bot, msg, args, lang) => {
 		.setDescription(embedinput)
 		.setColor('#66ff66');
 
-
+        msg.delete();
 	msg.channel.send({
 		embed
 	});
