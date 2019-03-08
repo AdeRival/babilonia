@@ -11,8 +11,6 @@ const YouTube = require('simple-youtube-api');
 const ytdl = require('ytdl-core');
 
 
-let userData = JSON.parse(fs.readFileSync('Storage/userData.json', 'utf8'));
-
 bot.on("ready", async () => {
     console.log(`${bot.user.username} is online on ${bot.guilds.size} servers!`);
   
