@@ -60,10 +60,5 @@ typings/
 # next.js build output
 .next
 
-#FFMPEG
-bin
-ffmpeg
-ffmpeg.exe
-ffplay.exe
-ffprobe.exe
-
+# Miscellaneous
+.vscode/
