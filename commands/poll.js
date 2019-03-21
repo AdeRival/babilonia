@@ -4,8 +4,7 @@ exports.run = async (bot, msg, [question, ...option]) => {
     else if (option.length > 25) { return msg.reply("Whoa! You have a giant list of options! Not even I can handle all of these!"); }
 
     var emote = ["✅", "❎", "☑", "✔", "❌", "✖", "⭕", "🔘"];
-
-    msg.delete().catch();
+    
     const embed = new bot.methods.Embed()
         .setColor("#FFFFFF")
         .setTimestamp()
